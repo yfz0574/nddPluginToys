@@ -1,22 +1,21 @@
 #pragma once
 #include <fstream>
-
-#include "CmdLineOutput.hpp"
-#include "Config.hpp"
-#include "Converter.hpp"
-#include "UTF8Util.hpp"
+//#include "CmdLineOutput.hpp"
+//#include "Config.hpp"
+#include <Converter.hpp>
+#include <UTF8Util.hpp>
 
 using namespace opencc;
-Optional<std::string> inputFileName = Optional<std::string>::Null();
-Optional<std::string> outputFileName = Optional<std::string>::Null();
-std::string configFileName;
-bool noFlush;
-Config config;
-ConverterPtr converter;
+//Optional<std::string> inputFileName = Optional<std::string>::Null();
+//Optional<std::string> outputFileName = Optional<std::string>::Null();
+//std::string configFileName;
+//bool noFlush;
+//Config config;
+
 class openccTranse
 {
 public:
-
+    ConverterPtr converter;
     std::string convertText(const std::string text);//必须是utf-8文本
 
 };

@@ -1,14 +1,15 @@
 #pragma once
 
 #include <QWidget>
-#include "ui_qttoysclass.h"
 #include <iostream>
 #include <sstream>
 #include <vector>
 #include <iterator>
 #include <math.h>
-#include "openccTranse.h"
 #include <qsciscintilla.h>
+#include "openccTranse.h"
+#include "ui_qttoysclass.h"
+
 //using namespace std;
 
 using iter = std::vector<std::string>::const_iterator;

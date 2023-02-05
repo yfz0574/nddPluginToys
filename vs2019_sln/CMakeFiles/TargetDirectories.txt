@@ -1,0 +1,3 @@
+F:/myproj/notepad--/src/plugin/nddPluginToys/vs2019_sln/CMakeFiles/nddPluginToys.dir
+F:/myproj/notepad--/src/plugin/nddPluginToys/vs2019_sln/CMakeFiles/ALL_BUILD.dir
+F:/myproj/notepad--/src/plugin/nddPluginToys/vs2019_sln/CMakeFiles/ZERO_CHECK.dir

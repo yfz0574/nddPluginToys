@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.21)
+project(nddPluginToys CXX)
+
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTORCC ON)
+
+find_package(Qt5 REQUIRED COMPONENTS Core Gui Widgets PrintSupport)
+
+aux_source_directory(${PROJECT_SOURCE_DIR} SRC)
+
+message(" nddPluginToys PROJECT_SOURCE_DIR: ${PROJECT_SOURCE_DIR}")
+file(GLOB MOC_HEADER ${PROJECT_SOURCE_DIR}/*.h)
+
+#message(${MOC_HEADER})
+
+add_library(${PROJECT_NAME} SHARED ${SRC} ${MOC_HEADER})
+
+#target_compile_definitions(${PROJECT_NAME} PRIVATE SCINTILLA_QT SCI_LEXER INCLUDE_DEPRECATED_FEATURES)
+
+target_include_directories(${PROJECT_NAME} PRIVATE
+${PROJECT_SOURCE_DIR}
+)
+				# target_include_directories(${PROJECT_NAME} PUBLIC
+target_link_libraries(${PROJECT_NAME} Qt5::Core Qt5::Gui Qt5::Widgets Qt5::Concurrent Qt5::Network Qt5::PrintSupport)

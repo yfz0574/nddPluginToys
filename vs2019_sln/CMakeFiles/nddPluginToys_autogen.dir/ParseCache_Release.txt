@@ -25,7 +25,6 @@ F:/myproj/notepad--/src/plugin/nddPluginToys/src/qttoysclass.h
  mdp:F:/libsrc/OpenCC/src/UTF8Util.hpp
  mdp:F:/libsrc/OpenCC/src/opencc.h
  mdp:F:/myproj/notepad--/src/plugin/nddPluginToys/src/openccTranse.h
- mdp:F:/myproj/notepad--/src/plugin/nddPluginToys/src/ui_qttoysclass.h
  mdp:F:/myproj/notepad--/src/qscint/src/Qsci/qscicommand.h
  mdp:F:/myproj/notepad--/src/qscint/src/Qsci/qscidocument.h
  mdp:F:/myproj/notepad--/src/qscint/src/Qsci/qsciglobal.h
@@ -38,7 +37,6 @@ F:/myproj/notepad--/src/plugin/nddPluginToys/src/qttoysclass.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/QPointer
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/QStringList
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/QTimer
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/QVariant
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qalgorithms.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qarraydata.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qatomic.h
@@ -51,10 +49,7 @@ F:/myproj/notepad--/src/plugin/nddPluginToys/src/qttoysclass.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qconfig.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qcontainerfwd.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qcontainertools_impl.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qcoreapplication.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qcoreevent.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qdatastream.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qeventloop.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qflags.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qglobal.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qglobalstatic.h
@@ -64,9 +59,7 @@ F:/myproj/notepad--/src/plugin/nddPluginToys/src/qttoysclass.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qiterator.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qline.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qlist.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qlocale.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qlogging.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qmap.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qmargins.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qmetatype.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qmutex.h
@@ -99,7 +92,6 @@ F:/myproj/notepad--/src/plugin/nddPluginToys/src/qttoysclass.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qtcore-config.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qtimer.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qtypeinfo.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qvariant.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qvarlengtharray.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qvector.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtCore/qversiontagging.h
@@ -109,10 +101,7 @@ F:/myproj/notepad--/src/plugin/nddPluginToys/src/qttoysclass.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtGui/qfont.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtGui/qfontinfo.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtGui/qfontmetrics.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtGui/qguiapplication.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtGui/qicon.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtGui/qimage.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtGui/qinputmethod.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtGui/qkeysequence.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtGui/qmatrix.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtGui/qpaintdevice.h
@@ -129,21 +118,9 @@ F:/myproj/notepad--/src/plugin/nddPluginToys/src/qttoysclass.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtGui/qwindowdefs.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtGui/qwindowdefs_win.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/QAbstractScrollArea
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/QApplication
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/QGridLayout
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/QLabel
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/QPushButton
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/QWidget
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/qabstractbutton.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/qabstractscrollarea.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/qapplication.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/qboxlayout.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/qframe.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/qgridlayout.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/qlabel.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/qlayout.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/qlayoutitem.h
- mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/qpushbutton.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/qsizepolicy.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/qtwidgets-config.h
  mdp:H:/develop/Qt/5.15.2/msvc2019_64/include/QtWidgets/qtwidgetsglobal.h

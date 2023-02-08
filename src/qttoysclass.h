@@ -50,7 +50,7 @@ private slots:
 	void on_amount();//到大写金额
 	void on_s2t();//简转繁体
 	void on_t2s();//繁体转简体
-	
+	void on_close();
 private:
 	Ui::QtToysClass ui;
 	QsciScintilla* m_pEdit;

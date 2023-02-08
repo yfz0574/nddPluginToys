@@ -22,9 +22,9 @@ void QtToysClass::showEvent(QShowEvent* event)
 void QtToysClass::on_upper()
 {
 	//QString text = m_pEdit->selectedText();
-	QString text = text.toUpper();
+	QString text = intext_.toUpper();
 
-	m_pEdit->setText(text);
+	m_pEdit->replaceSelectedText(text);
 	this->close();
 	return;
 }
@@ -33,9 +33,9 @@ void QtToysClass::on_lower()
 {
 	//QString text = m_pEdit->selectedText();
 
-	QString text = text.toLower();
+	QString text = intext_.toLower();
 
-	m_pEdit->setText(text);
+	m_pEdit->replaceSelectedText(text);
 	this->close();
 	return;
 }
@@ -228,6 +228,14 @@ void QtToysClass::on_amount() {
 
    // QString text = m_pEdit->selectedText();
 	oss2_ = reinterpret_cast<const char*>(u8"");
+	bool ok;
+	double val = intext_.toDouble(&ok);   // ok为true说明str为数字，为false说明str为非数字
+	if(ok!=true)
+	{ 
+		this->close();
+		return;
+	}
+
     convert_amount(intext_.toDouble());
 	//convert_amount(0);
 	//QString outtext;
@@ -395,12 +403,18 @@ std::string QtToysClass::convertText(const std::string text) {
 }
 
 
+void QtToysClass::on_close()
+{
+
+	this->close();
+	return;
+
+}
+
 
 std::string openccTranse::convertText(const std::string text)
 {
 	const std::string& converted = converter->Convert(text);
 	return converted;
 };
-
-
 

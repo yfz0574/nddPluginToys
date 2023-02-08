@@ -31,7 +31,7 @@
     <rect>
      <x>30</x>
      <y>70</y>
-     <width>344</width>
+     <width>390</width>
      <height>201</height>
     </rect>
    </property>
@@ -42,14 +42,7 @@
        <bool>false</bool>
       </property>
       <property name="text">
-       <string>转到数字金额</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="2">
-     <widget class="QPushButton" name="closeBtn">
-      <property name="text">
-       <string>关闭</string>
+       <string>转到数字金额(未实现)</string>
       </property>
      </widget>
     </item>
@@ -85,6 +78,13 @@
      <widget class="QPushButton" name="lowerBt">
       <property name="text">
        <string>转到小写</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QPushButton" name="closeBtn">
+      <property name="text">
+       <string>关闭</string>
       </property>
      </widget>
     </item>
@@ -187,6 +187,22 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>closeBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>QtToysClass</receiver>
+   <slot>on_close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>209</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>237</x>
+     <y>182</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>on_upper()</slot>
@@ -194,5 +210,6 @@
   <slot>on_amount()</slot>
   <slot>on_s2t()</slot>
   <slot>on_t2s()</slot>
+  <slot>on_close()</slot>
  </slots>
 </ui>

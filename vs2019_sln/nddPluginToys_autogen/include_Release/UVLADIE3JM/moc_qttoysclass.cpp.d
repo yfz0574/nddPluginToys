@@ -1,12 +1,26 @@
 F:/myproj/notepad--/src/plugin/nddPluginToys/vs2019_sln/nddPluginToys_autogen/include_Release/UVLADIE3JM/moc_qttoysclass.cpp: F:/myproj/notepad--/src/plugin/nddPluginToys/src/qttoysclass.h \
   F:/libsrc/OpenCC/build/src/opencc_config.h \
+  F:/libsrc/OpenCC/src/BinaryDict.hpp \
   F:/libsrc/OpenCC/src/Common.hpp \
+  F:/libsrc/OpenCC/src/Config.hpp \
+  F:/libsrc/OpenCC/src/Conversion.hpp \
+  F:/libsrc/OpenCC/src/ConversionChain.hpp \
   F:/libsrc/OpenCC/src/Converter.hpp \
+  F:/libsrc/OpenCC/src/Dict.hpp \
+  F:/libsrc/OpenCC/src/DictEntry.hpp \
+  F:/libsrc/OpenCC/src/DictGroup.hpp \
   F:/libsrc/OpenCC/src/Exception.hpp \
   F:/libsrc/OpenCC/src/Export.hpp \
+  F:/libsrc/OpenCC/src/MarisaDict.hpp \
+  F:/libsrc/OpenCC/src/MaxMatchSegmentation.hpp \
   F:/libsrc/OpenCC/src/Optional.hpp \
   F:/libsrc/OpenCC/src/Segmentation.hpp \
+  F:/libsrc/OpenCC/src/Segments.hpp \
+  F:/libsrc/OpenCC/src/SerializableDict.hpp \
+  F:/libsrc/OpenCC/src/SimpleConverter.hpp \
+  F:/libsrc/OpenCC/src/TextDict.hpp \
   F:/libsrc/OpenCC/src/UTF8Util.hpp \
+  F:/libsrc/OpenCC/src/opencc.h \
   F:/myproj/notepad--/src/plugin/nddPluginToys/src/openccTranse.h \
   F:/myproj/notepad--/src/plugin/nddPluginToys/src/ui_qttoysclass.h \
   F:/myproj/notepad--/src/qscint/src/Qsci/qscicommand.h \

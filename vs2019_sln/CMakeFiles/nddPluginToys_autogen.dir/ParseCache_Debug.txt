@@ -3,27 +3,13 @@ F:/myproj/notepad--/src/plugin/nddPluginToys/src/qttoysclass.h
  mmc:Q_OBJECT
  mdp:F:/myproj/notepad--/src/plugin/nddPluginToys/src/qttoysclass.h
  mdp:F:/libsrc/OpenCC/build/src/opencc_config.h
- mdp:F:/libsrc/OpenCC/src/BinaryDict.hpp
  mdp:F:/libsrc/OpenCC/src/Common.hpp
- mdp:F:/libsrc/OpenCC/src/Config.hpp
- mdp:F:/libsrc/OpenCC/src/Conversion.hpp
- mdp:F:/libsrc/OpenCC/src/ConversionChain.hpp
  mdp:F:/libsrc/OpenCC/src/Converter.hpp
- mdp:F:/libsrc/OpenCC/src/Dict.hpp
- mdp:F:/libsrc/OpenCC/src/DictEntry.hpp
- mdp:F:/libsrc/OpenCC/src/DictGroup.hpp
  mdp:F:/libsrc/OpenCC/src/Exception.hpp
  mdp:F:/libsrc/OpenCC/src/Export.hpp
- mdp:F:/libsrc/OpenCC/src/MarisaDict.hpp
- mdp:F:/libsrc/OpenCC/src/MaxMatchSegmentation.hpp
  mdp:F:/libsrc/OpenCC/src/Optional.hpp
  mdp:F:/libsrc/OpenCC/src/Segmentation.hpp
- mdp:F:/libsrc/OpenCC/src/Segments.hpp
- mdp:F:/libsrc/OpenCC/src/SerializableDict.hpp
- mdp:F:/libsrc/OpenCC/src/SimpleConverter.hpp
- mdp:F:/libsrc/OpenCC/src/TextDict.hpp
  mdp:F:/libsrc/OpenCC/src/UTF8Util.hpp
- mdp:F:/libsrc/OpenCC/src/opencc.h
  mdp:F:/myproj/notepad--/src/plugin/nddPluginToys/src/openccTranse.h
  mdp:F:/myproj/notepad--/src/plugin/nddPluginToys/src/ui_qttoysclass.h
  mdp:F:/myproj/notepad--/src/qscint/src/Qsci/qscicommand.h

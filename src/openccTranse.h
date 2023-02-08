@@ -3,20 +3,47 @@
 //#include "CmdLineOutput.hpp"
 //#include "Config.hpp"
 #include <Converter.hpp>
+#include <opencc.h>
 #include <UTF8Util.hpp>
+#include "opencc_config.h"
+#include "Config.hpp"
+#include <fstream>
+#include <list>
+#include <unordered_map>
+
+//#include <rapidjson/document.h>
+
+#include "Config.hpp"
+#include "ConversionChain.hpp"
+#include "Converter.hpp"
+#include "DictGroup.hpp"
+#include "Exception.hpp"
+#include "MarisaDict.hpp"
+#include "MaxMatchSegmentation.hpp"
+#include "TextDict.hpp"
+#include <Common.hpp>
+#include <BinaryDict.hpp>
+
 
 using namespace opencc;
-//Optional<std::string> inputFileName = Optional<std::string>::Null();
-//Optional<std::string> outputFileName = Optional<std::string>::Null();
-//std::string configFileName;
-//bool noFlush;
-//Config config;
+
 
 class openccTranse
 {
 public:
+    openccTranse();
     ConverterPtr converter;
     std::string convertText(const std::string text);//必须是utf-8文本
+
+public:
+    Optional<std::string> inputFileName_ = Optional<std::string>::Null();
+    Optional<std::string> outputFileName_ = Optional<std::string>::Null();
+    std::string configFileName_;
+    bool noFlush_;
+    Config config_;
+
+    //const LexiconPtr& _lexicon;
+    //BinaryDict dict_(_lexicon);
 
 };
 #if 1==0
@@ -227,5 +254,5 @@ int main(int argc, const char* argv[]) {
     }
     return 0;
 }
-
 #endif
+
